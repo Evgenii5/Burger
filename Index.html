@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgers</title> <!--заголовок-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--шрифты-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <!--шрифты-->
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@700;800&display=swap" rel="stylesheet"> <!--шрифты-->
+    <link rel="stylesheet" type="text/css" href="main.css"> <!--подключение файла css-->
+</head>
+<body>
+    <div class="main">                       <!--общий div1 для всего синего блока--> 
+        <div class="container">              <!-- этот div2 ограничивает контент по ширине, в нем находится   текст                                 желтая полоса градиент и рисунок бургер--> 
+            <div class="text">               <!-- в этом div3 находится весь текст и кнопка, находится рядом с div4 не вложен в него-->
+                <h1>                         <!--тег заголовка-->
+                    <span>работаем с 11:00 до 22:00</span> <!--строчный тег контейнер, не занимает всю строку-->
+                    Лучшие бургеры
+                </h1>
+                <p>Закажи наши фирменные бургеры или собери что-то своё а&nbsp;наши курьеры доставят за&nbsp;30&nbsp;минут</p> <!--самостоятельный тег для текста. Блочный, занимает всю строку-->
+                <a href="#">заказать</a>     <!-- тег ссылка, с заглушкой #-->
+            </div>
+            <div class="visual">             <!-- в этом div4 находится желтый прямоугольник и картинка бургера-->
+                <div class="bg"></div>       <!--div5 желтый прямоугольник (градиент)-->
+                <img src="burger.png" alt="Burger">    <!--тег картинка, с альтернативным текстом-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
